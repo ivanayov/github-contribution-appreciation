@@ -1,10 +1,10 @@
-# Contributing to kudo-badges
+# Contributing to github-kudos
 
-The kudo-badges project team welcomes contributions from the community. Follow the guidelines to contribute to the seed.
+The github-kudos project team welcomes contributions from the community. Follow the guidelines to contribute to the seed.
 
 ## Contribution Guidelines
 
-Before you start working with Kudo Badges, please complete the following steps:
+Before you start working with GitHub Kudos, please complete the following steps:
 
 - Read our [code of conduct](/CODE_OF_CONDUCT.md).
 
@@ -12,8 +12,8 @@ Before you start working with Kudo Badges, please complete the following steps:
 
 Here are the typical steps in a contributor's workflow:
 
-- [Fork](https://help.github.com/articles/fork-a-repo/) the main Kudo Badges seed repository. 
-- Clone your fork and set the upstream remote to the main Kudo Badges repository.
+- [Fork](https://help.github.com/articles/fork-a-repo/) the main GitHub Kudos seed repository. 
+- Clone your fork and set the upstream remote to the main GitHub Kudos repository.
 - Set your name and e-mail in the Git configuration for signing.
 - Create a topic branch from where you want to base your work.
 - Make commits of logical units.
@@ -25,17 +25,17 @@ Example:
 
 ``` shell
 # Clone your forked repository
-git clone git@github.com:<github username>/kudo-badges.git
+git clone git@github.com:<github username>/github-kudos.git
 
 # Navigate to the directory
-cd kudo-badges
+cd github-kudos
 
 # Set name and e-mail configuration
 git config user.name "John Doe"
 git config user.email johndoe@example.com
 
 # Setup the upstream remote
-git remote add upstream https://github.com/vmware/kudo-badges-seed.git
+git remote add upstream https://github.com/vmware/github-kudos-seed.git
 
 # Create a topic branch for your changes
 git checkout -b my-new-feature master
@@ -100,4 +100,4 @@ These documents provide guidance creating a well-crafted commit message:
 
 ## Reporting Bugs and Creating Issues
 
-You can submit an issue or a bug to our [GitHub repository](https://github.com/vmware/kudo-badges/issues).
+You can submit an issue or a bug to our [GitHub repository](https://github.com/vmware/github-kudos/issues).
