@@ -6,7 +6,7 @@ A GitHub extension for showing appreciation to someone who you find helpful
 One of the ways that the Kubernetes community shows appreciation
 for the "chopping wood and carrying water" work that contributors
 do is to send them chocolate, a shirt, or some other kind of physical
-gift (see their talk at OSLS here: http://sched.co/DjtU). Not all
+gift as described in [this talk at 2018 OSLS](http://sched.co/DjtU). Not all
 open source projects are resourced to give this kind of gift. What
 if there was a way for an open source maintainer to give a badge
 to a contributor whom they appreciate such that this badge shows
