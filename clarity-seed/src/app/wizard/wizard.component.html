@@ -1,0 +1,23 @@
+<div>
+<button (click)="open= !open" class="btn btn-primary">Create</button>
+<qrcode *ngIf="created" [qrdata]="value" [size]="256" [level]="'M'"></qrcode>
+<button (click)="createPullRequest()" *ngIf="created" class="btn btn-primary">Share</button>
+</div>
+
+<div class="spinner" *ngIf="loading"></div>
+
+<clr-modal [(clrModalOpen)]="open">
+    <h3 class="modal-title">Show Appreciation</h3>
+    <div class="modal-body">
+        <!-- <p>Something more descriptive</p> -->
+        <input type="text" [(ngModel)]="from" placeholder="From"/> <br/> <br/>
+        <input type="text" [(ngModel)]="to" placeholder="To (GitHub ID)"/> <br/> <br/>
+        <input type="text" [(ngModel)]="commit" placeholder="Commit"/> <br/> <br/>
+        <input type="text" [(ngModel)]="msg" placeholder="Message"/> <br/> <br/>
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-outline" (click)="open = false">Cancel</button>
+        <button type="button" class="btn btn-primary" (click)="create()">Ok</button>
+    </div>
+</clr-modal>
